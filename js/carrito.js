@@ -15,7 +15,7 @@ const gpuAmd = new Producto("AMD Radeon RX 6600 XT", 300000);
 const cpuIntel = new Producto("Intel i7 7700", 100000);
 const cpuAmd = new Producto("AMD Ryzen 5 7600", 150000);
 const ramCorsair = new Producto("Memoria RAM Corsair DDR4 8GB", 25000);
-const ramViper = new Producto("Memoria Patriot Viper DDR4 8GB", 30000);
+const ramViper = new Producto("Memoria RAM Patriot Viper DDR4 8GB", 30000);
 
 let nombreUsuario = prompt("Nombre de usuario: ");
 
