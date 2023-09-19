@@ -1,0 +1,51 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap";
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(90deg, rgb(34, 34, 34) 0%, rgb(92, 92, 92) 100%);
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+ul li {
+  cursor: pointer;
+  list-style: none;
+  padding: 10px 0px 10px 0px;
+}
+
+.productos {
+  font-size: 40px;
+}
+
+.precio {
+  color: aquamarine;
+  font-weight: bold;
+}
+
+div {
+  display: inline-block;
+  padding: 100px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logoVelen {
+  text-align: center;
+}
+
+.logoVelen img {
+  height: 15%;
+  width: 15%;
+}
+
+.dinero {
+  font-size: 25px;
+}
