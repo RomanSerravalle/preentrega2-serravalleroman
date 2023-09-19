@@ -17,6 +17,10 @@ ul li {
   padding: 10px 0px 10px 0px;
 }
 
+ul li:hover {
+  text-decoration: underline;
+}
+
 .productos {
   font-size: 40px;
 }
