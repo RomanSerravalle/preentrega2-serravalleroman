@@ -68,6 +68,8 @@ function actualizar() {
   //Función para calcular el valor total del carrito
   const totalCarrito = carrito.reduce((acc, el) => acc + el.precio, 0);
   console.log("Valor total del carrito: $" + totalCarrito);
+
+  //Agregar productos al carrito
   elCarrito.innerHTML = "";
   for (const producto of carrito) {
     const li = `<li onclick="vender('${producto.nombre}')">${producto.nombre} - <b> $${producto.precio}</b></li>`;
